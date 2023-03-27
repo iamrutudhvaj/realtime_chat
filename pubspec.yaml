@@ -1,0 +1,31 @@
+name: realtime_chat
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  firebase_auth: ^4.3.0
+  firebase_core: ^2.8.0
+  google_sign_in: ^6.0.2
+  shared_preferences: ^2.0.20
+  cloud_firestore: ^4.4.5
+  intl: ^0.17.0
+  
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/
+  #   - images/a_dot_ham.jpeg
+
